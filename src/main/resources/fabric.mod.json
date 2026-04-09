@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ryoshumod",
+  "version": "1.0.0",
+  "name": "Ryoshu Mod",
+  "description": "EGO sword mod",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.limbus.ryoshuMod.client.RyoshuModClient"
+    ],
+    "main": [
+      "org.limbus.ryoshuMod.RyoshuMod"
+    ],
+    "fabric-model-loading-v1": [
+      "org.limbus.ryoshuMod.client.RyoshuModelLoadingPlugin"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
